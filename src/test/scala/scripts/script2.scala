@@ -1,4 +1,4 @@
-package test.scala.scripts
+package test.scala.scripts_bak
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._ //Para especificar duración de cada request (?)
@@ -16,5 +16,5 @@ class script2 extends baseConfig {
 
     // Con esto se define la llamada del escenario para ser simulada (se ejecuta).
     // 'httpProtocol' es lo que se define arriba.
-    setUp(scen1.inject(atOnceUsers(2))).protocols(httpProtocol)
+    setUp(scen1.inject(atOnceUsers(users))).protocols(httpProtocol)
 }

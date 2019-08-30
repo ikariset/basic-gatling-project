@@ -1,4 +1,4 @@
-package test.scala.scripts
+package test.scala.scripts_bak
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._ //Para especificar duración de cada request (?)

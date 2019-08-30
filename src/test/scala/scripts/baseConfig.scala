@@ -1,4 +1,4 @@
-package test.scala.scripts
+package test.scala.scripts_bak
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._ //Para especificar duración de cada request (?)
@@ -15,4 +15,6 @@ class baseConfig extends Simulation{
         "Accept-Encoding" -> "gzip, deflate",
         "Accept-Language" -> "en-US,en;q=0.9,nl-NL;q=0.8,nl;q=0.7,es;q=0.6,ja;q=0.5"
     )
+
+    val users = 20
 }
